@@ -1,0 +1,18 @@
+# Konfigurasi sensitif
+config/koneksi.php
+
+# File yang diunggah pengguna (foto, foto profil, banner)
+assets/img/*
+!assets/img/.gitkeep
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# File editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Log & cache
+*.log
